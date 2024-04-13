@@ -1,0 +1,34 @@
+footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-top: 1px solid gainsboro;
+  background-color: white;
+}
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.footer-block img {
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.footer-icons {
+  font-size: 8px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 0 20px;
+  cursor: pointer;
+}
